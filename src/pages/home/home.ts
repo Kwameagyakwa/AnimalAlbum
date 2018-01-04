@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController,  NavParams } from 'ionic-angular';
 import { ElephantPage } from '../elephant/elephant';
 import { GoatPage } from '../goat/goat';
 import { KangarooPage } from '../kangaroo/kangaroo';
@@ -13,28 +13,26 @@ import { ZebraPage } from '../zebra/zebra';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController,public navParams: NavParams) {
 
   }
-    ionViewDidLoad() {
-      console.log('ionmviewDidLoad home');
-          }
-          ElephantPage(){
+   
+          Elephant(){
             this.navCtrl.push(ElephantPage);
             }
-          GoatPage(){
+          Goat(){
               this.navCtrl.push(GoatPage);
                }
-          KangarooPage(){
+          Kangaroo(){
             this.navCtrl.push(KangarooPage);
           }
-        MonkeyPage(){
+        Monkey(){
           this.navCtrl.push(MonkeyPage);
         }
-        TigerPage(){
+        Tiger(){
           this.navCtrl.push(TigerPage);
         }
-        ZebraPage(){
+        Zebra(){
           this.navCtrl.push(ZebraPage);
         }
 }
