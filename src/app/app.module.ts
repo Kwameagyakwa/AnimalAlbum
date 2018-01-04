@@ -6,23 +6,26 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ElephantPage } from '../pages/elephant/elephant';
+import { GoatPage } from '../pages/goat/goat';
+import { ZebraPage } from '../pages/zebra/zebra';
+import { TigerPage } from '../pages/tiger/tiger';
 import { KangarooPage } from '../pages/kangaroo/kangaroo';
 import { MonkeyPage } from '../pages/monkey/monkey';
-import { TigerPage } from '../pages/tiger/tiger';
-import { ZebraPage } from '../pages/zebra/zebra';
-import { GoatPage } from '../pages/goat/goat';
+import { ElephantPage } from '../pages/elephant/elephant';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ElephantPage,
+    GoatPage,
+    ZebraPage,
+    TigerPage,
     KangarooPage,
     MonkeyPage,
-    TigerPage,
-    ZebraPage,
-    GoatPage,
+    ElephantPage,
+
+
+
   ],
   imports: [
     BrowserModule,
@@ -32,12 +35,12 @@ import { GoatPage } from '../pages/goat/goat';
   entryComponents: [
     MyApp,
     HomePage,
-    ElephantPage,
+    GoatPage,
+    ZebraPage,
+    TigerPage,
     KangarooPage,
     MonkeyPage,
-    TigerPage,
-    ZebraPage,
-    GoatPage,
+    ElephantPage,
   ],
   providers: [
     StatusBar,
