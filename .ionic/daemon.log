@@ -1,0 +1,1608 @@
+[DEBUG] [2018-01-03T09:47:14.384Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-03T09:47:14.436Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-03T09:47:14.466Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-03T09:47:25.129Z] Writing 3712 to daemon pid file (.\daemon.pid).
+[2018-01-03T09:47:25.236Z] Spinning up communication server on port 53818.
+[2018-01-03T09:47:26.133Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-03T09:47:43.500Z] Writing daemon file.
+[ERROR] [2018-01-03T09:51:23.358Z] Error with ~\Desktop\Ionic\Todo\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T09:51:23.359Z] Error with ~\Desktop\Ionic\Todo\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T10:04:21.491Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.172.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.172.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T10_04_21_462Z-debug.log
+        
+
+[ERROR] [2018-01-03T10:07:50.881Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ECONNRESET
+        npm ERR! network socket hang up
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ECONNRESET",
+             "summary": "socket hang up",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T10_07_50_819Z-debug.log
+        
+
+[ERROR] [2018-01-03T10:07:50.887Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ECONNRESET
+        npm ERR! network socket hang up
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ECONNRESET",
+             "summary": "socket hang up",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T10_07_50_817Z-debug.log
+        
+
+[2018-01-03T10:07:50.892Z] Writing daemon file.
+[DEBUG] [2018-01-03T11:03:38.483Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-03T11:03:39.001Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-03T11:03:39.026Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-03T11:04:12.963Z] Daemon pid file found: .\daemon.pid
+[2018-01-03T11:04:12.965Z] Process 3712 not found, deleting pid file.
+[2018-01-03T11:04:12.967Z] Writing 5380 to daemon pid file (.\daemon.pid).
+[2018-01-03T11:04:13.050Z] Spinning up communication server on port 53818.
+[2018-01-03T11:04:17.888Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-03T11:05:31.854Z] Writing daemon file.
+[2018-01-03T11:21:11.900Z] Writing daemon file.
+[ERROR] [2018-01-03T11:21:41.614Z] Error with ~\Desktop\Ionic\Todo\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T11:21:41.614Z] Error with ~\Desktop\Ionic\Todo\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T11:23:59.062Z] Error with ~\Desktop\Ionic\MyApp2\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T11:23:59.062Z] Error with ~\Desktop\Ionic\MyApp2\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T11:36:56.770Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T11_36_56_697Z-debug.log
+        
+
+[ERROR] [2018-01-03T11:36:56.776Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T11_36_56_696Z-debug.log
+        
+
+[ERROR] [2018-01-03T11:36:56.782Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T11_36_56_687Z-debug.log
+        
+
+[2018-01-03T11:36:56.788Z] Writing daemon file.
+[DEBUG] [2018-01-03T12:03:19.993Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-03T12:03:20.080Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-03T12:03:20.100Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-03T12:03:34.821Z] Daemon pid file found: .\daemon.pid
+[2018-01-03T12:03:34.821Z] Process 5380 not found, deleting pid file.
+[2018-01-03T12:03:34.821Z] Writing 3048 to daemon pid file (.\daemon.pid).
+[2018-01-03T12:03:34.861Z] Spinning up communication server on port 53818.
+[2018-01-03T12:03:38.672Z] Writing 53818 to daemon port file (.\daemon.port).
+[ERROR] [2018-01-03T12:03:41.762Z] Error with ~\Desktop\Ionic\Todo\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T12:03:41.762Z] Error with ~\Desktop\Ionic\Todo\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-03T12:03:53.235Z] Writing daemon file.
+[2018-01-03T12:19:08.446Z] Writing daemon file.
+[ERROR] [2018-01-03T12:35:28.659Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T12_35_28_609Z-debug.log
+        
+
+[ERROR] [2018-01-03T12:35:28.669Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T12_35_28_609Z-debug.log
+        
+
+[ERROR] [2018-01-03T12:35:28.789Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        
+
+[2018-01-03T12:35:28.799Z] Writing daemon file.
+[ERROR] [2018-01-03T12:39:05.384Z] Error with ~\Desktop\Ionic\MyApp2\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T12:39:05.385Z] Error with ~\Desktop\Ionic\MyApp2\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T12:48:38.598Z] Error with ~\Desktop\Ionic\MyApp2\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T12:48:38.598Z] Error with ~\Desktop\Ionic\MyApp2\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-03T12:49:12.050Z] Writing daemon file.
+[ERROR] [2018-01-03T12:57:42.203Z] Error with ~\Desktop\Ionic\AllProgram\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T12:57:42.203Z] Error with ~\Desktop\Ionic\AllProgram\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-03T13:04:08.192Z] Writing daemon file.
+[2018-01-03T13:19:11.169Z] Writing daemon file.
+[DEBUG] [2018-01-03T13:26:20.136Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-01-03T13:26:20.146Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-03T14:42:46.701Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-03T14:42:46.724Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-03T14:42:46.747Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-03T14:44:07.278Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T14_44_07_213Z-debug.log
+        
+
+[ERROR] [2018-01-03T14:44:07.297Z] Could not get latest version of ionic.
+[DEBUG] [2018-01-03T15:22:44.391Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-03T15:22:44.401Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-03T15:22:44.447Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-03T15:23:01.551Z] Writing 4416 to daemon pid file (.\daemon.pid).
+[2018-01-03T15:23:01.562Z] Spinning up communication server on port 53818.
+[2018-01-03T15:23:03.596Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-03T15:24:36.917Z] Writing daemon file.
+[WARN] [2018-01-03T15:25:06.067Z] Error with .\www\lib\ionic\version.json file: FILE_NOT_FOUND, trying .\bower.json.
+[ERROR] [2018-01-03T15:25:06.069Z] Error with .\bower.json file: FILE_NOT_FOUND
+[WARN] [2018-01-03T15:28:12.552Z] Error with .\www\lib\ionic\version.json file: FILE_NOT_FOUND, trying .\bower.json.
+[ERROR] [2018-01-03T15:28:12.553Z] Error with .\bower.json file: FILE_NOT_FOUND
+[DEBUG] [2018-01-03T15:31:33.808Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-03T15:31:33.810Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-03T15:32:09.436Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-03T15:32:09.446Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-03T15:32:09.475Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-03T15:32:14.650Z] Writing 7828 to daemon pid file (.\daemon.pid).
+[2018-01-03T15:32:14.663Z] Spinning up communication server on port 53818.
+[2018-01-03T15:32:15.170Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-03T15:32:47.138Z] Writing daemon file.
+[ERROR] [2018-01-03T15:33:16.675Z] Error with ~\Desktop\Ionic\Todo\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-03T15:33:16.676Z] Error with ~\Desktop\Ionic\Todo\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-03T15:47:55.485Z] Writing daemon file.
+[ERROR] [2018-01-03T16:04:01.651Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T16_04_01_625Z-debug.log
+        
+
+[ERROR] [2018-01-03T16:04:01.877Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T16_04_01_810Z-debug.log
+        
+
+[ERROR] [2018-01-03T16:04:02.316Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T16_04_02_278Z-debug.log
+        
+
+[2018-01-03T16:04:02.320Z] Writing daemon file.
+[ERROR] [2018-01-03T16:19:01.337Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T16_19_01_238Z-debug.log
+        
+
+[ERROR] [2018-01-03T16:19:01.464Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T16_19_01_258Z-debug.log
+        
+
+[ERROR] [2018-01-03T16:19:01.585Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-03T16_19_01_559Z-debug.log
+        
+
+[2018-01-03T16:19:01.588Z] Writing daemon file.
+[DEBUG] [2018-01-03T16:25:47.999Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-03T16:25:48.003Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T04:22:00.466Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T04:22:00.485Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T04:22:00.510Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T04:22:08.901Z] Writing 6484 to daemon pid file (.\daemon.pid).
+[2018-01-04T04:22:08.941Z] Spinning up communication server on port 53818.
+[2018-01-04T04:22:14.733Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T04:22:26.489Z] Writing daemon file.
+[ERROR] [2018-01-04T04:24:35.770Z] Error with ~\Desktop\Ionic\AnimalAlbum-master\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T04:24:35.771Z] Error with ~\Desktop\Ionic\AnimalAlbum-master\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T04:38:46.513Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T04_38_45_907Z-debug.log
+        
+
+[ERROR] [2018-01-04T04:38:46.522Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T04_38_45_928Z-debug.log
+        
+
+[ERROR] [2018-01-04T04:38:46.528Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T04_38_45_886Z-debug.log
+        
+
+[2018-01-04T04:38:46.533Z] Writing daemon file.
+[2018-01-04T04:52:33.235Z] Writing daemon file.
+[ERROR] [2018-01-04T04:53:45.333Z] Error with ~\Desktop\Ionic\AnimalAlbum\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T04:53:45.333Z] Error with ~\Desktop\Ionic\AnimalAlbum\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-04T05:07:35.248Z] Writing daemon file.
+[2018-01-04T05:22:36.588Z] Writing daemon file.
+[DEBUG] [2018-01-04T05:31:02.950Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-04T05:31:02.956Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T05:31:41.223Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T05:31:41.232Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T05:31:41.256Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T05:31:45.900Z] Writing 5968 to daemon pid file (.\daemon.pid).
+[2018-01-04T05:31:45.910Z] Spinning up communication server on port 53818.
+[2018-01-04T05:31:51.095Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T05:32:05.894Z] Writing daemon file.
+[ERROR] [2018-01-04T05:32:57.059Z] Error with ~\Desktop\Ionic\AnimalAlbum\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T05:32:57.060Z] Error with ~\Desktop\Ionic\AnimalAlbum\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T05:44:52.533Z] Error with ~\Desktop\Ionic\Animals\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T05:44:52.534Z] Error with ~\Desktop\Ionic\Animals\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-04T05:47:20.020Z] Writing daemon file.
+[DEBUG] [2018-01-04T05:50:52.815Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-04T05:50:52.818Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T05:51:05.674Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T05:51:05.701Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T05:51:05.728Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T05:52:14.849Z] Writing 9000 to daemon pid file (.\daemon.pid).
+[2018-01-04T05:52:14.860Z] Spinning up communication server on port 53818.
+[2018-01-04T05:52:15.165Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T05:53:35.840Z] Writing daemon file.
+[DEBUG] [2018-01-04T05:55:27.508Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-01-04T05:55:27.510Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T06:09:53.628Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T06:09:53.637Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T06:09:53.667Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-04T06:11:07.167Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T06_11_06_969Z-debug.log
+        
+
+[ERROR] [2018-01-04T06:11:07.192Z] Could not get latest version of ionic.
+[DEBUG] [2018-01-04T06:32:15.504Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T06:32:15.515Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T06:32:15.541Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T06:32:20.358Z] Writing 8968 to daemon pid file (.\daemon.pid).
+[2018-01-04T06:32:20.371Z] Spinning up communication server on port 53818.
+[2018-01-04T06:32:20.573Z] Writing 53818 to daemon port file (.\daemon.port).
+[ERROR] [2018-01-04T06:32:22.536Z] Error with ~\Desktop\Ionic\AnimalsApp\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-01-04T06:32:22.537Z] Error with ~\Desktop\Ionic\AnimalsApp\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-01-04T06:32:30.912Z] Writing daemon file.
+[2018-01-04T06:47:37.855Z] Writing daemon file.
+[2018-01-04T07:02:42.915Z] Writing daemon file.
+[2018-01-04T07:17:54.398Z] Writing daemon file.
+[2018-01-04T07:33:16.676Z] Writing daemon file.
+[ERROR] [2018-01-04T07:49:48.928Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T07_49_48_843Z-debug.log
+        
+
+[ERROR] [2018-01-04T07:49:48.941Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T07_49_48_850Z-debug.log
+        
+
+[ERROR] [2018-01-04T07:49:48.948Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T07_49_48_853Z-debug.log
+        
+
+[2018-01-04T07:49:48.952Z] Writing daemon file.
+[ERROR] [2018-01-04T08:04:49.096Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_04_49_065Z-debug.log
+        
+
+[ERROR] [2018-01-04T08:04:49.159Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_04_49_117Z-debug.log
+        
+
+[ERROR] [2018-01-04T08:04:49.343Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_04_49_308Z-debug.log
+        
+
+[2018-01-04T08:04:49.367Z] Writing daemon file.
+[ERROR] [2018-01-04T08:22:15.594Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ECONNRESET
+        npm ERR! errno ECONNRESET
+        npm ERR! syscall read
+        npm ERR! network read ECONNRESET
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ECONNRESET",
+             "summary": "read ECONNRESET",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_22_15_563Z-debug.log
+        
+
+[ERROR] [2018-01-04T08:22:15.873Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ECONNRESET
+        npm ERR! errno ECONNRESET
+        npm ERR! syscall read
+        npm ERR! network read ECONNRESET
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ECONNRESET",
+             "summary": "read ECONNRESET",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_22_15_825Z-debug.log
+        
+
+[ERROR] [2018-01-04T08:22:16.542Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ECONNRESET
+        npm ERR! errno ECONNRESET
+        npm ERR! syscall read
+        npm ERR! network read ECONNRESET
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ECONNRESET",
+             "summary": "read ECONNRESET",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_22_16_505Z-debug.log
+        
+
+[2018-01-04T08:22:16.546Z] Writing daemon file.
+[ERROR] [2018-01-04T08:42:10.824Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_42_10_787Z-debug.log
+        
+
+[ERROR] [2018-01-04T08:42:10.828Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_42_10_786Z-debug.log
+        
+
+[ERROR] [2018-01-04T08:42:13.103Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T08_42_13_064Z-debug.log
+        
+
+[2018-01-04T08:42:13.123Z] Writing daemon file.
+[DEBUG] [2018-01-04T08:51:05.098Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-01-04T08:51:05.102Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T08:51:46.227Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T08:51:46.237Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T08:51:46.327Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T08:51:58.404Z] Writing 8644 to daemon pid file (.\daemon.pid).
+[2018-01-04T08:51:58.413Z] Spinning up communication server on port 53818.
+[2018-01-04T08:51:58.805Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T08:52:20.525Z] Writing daemon file.
+[2018-01-04T09:07:38.693Z] Writing daemon file.
+[2018-01-04T09:22:32.895Z] Writing daemon file.
+[DEBUG] [2018-01-04T09:56:09.297Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T09:56:09.365Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T09:56:09.408Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T09:56:24.292Z] Daemon pid file found: .\daemon.pid
+[2018-01-04T09:56:24.293Z] Process 8644 not found, deleting pid file.
+[2018-01-04T09:56:24.295Z] Writing 4172 to daemon pid file (.\daemon.pid).
+[2018-01-04T09:56:24.308Z] Spinning up communication server on port 53818.
+[2018-01-04T09:56:29.846Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T09:57:05.350Z] Writing daemon file.
+[2018-01-04T10:12:22.135Z] Writing daemon file.
+[DEBUG] [2018-01-04T10:16:32.331Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-01-04T10:16:32.333Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T10:42:25.732Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T10:42:25.742Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T10:42:25.767Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T10:42:40.155Z] Writing 128 to daemon pid file (.\daemon.pid).
+[2018-01-04T10:42:40.165Z] Spinning up communication server on port 53818.
+[2018-01-04T10:42:40.435Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T10:42:57.709Z] Writing daemon file.
+[DEBUG] [2018-01-04T10:44:00.414Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-01-04T10:44:00.416Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T10:53:40.967Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T10:53:40.994Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T10:53:41.020Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T10:54:55.871Z] Writing 5324 to daemon pid file (.\daemon.pid).
+[2018-01-04T10:54:55.881Z] Spinning up communication server on port 53818.
+[2018-01-04T10:54:58.443Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T10:55:13.247Z] Writing daemon file.
+[2018-01-04T11:10:56.156Z] Writing daemon file.
+[DEBUG] [2018-01-04T11:26:26.781Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-04T11:26:26.785Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T11:26:43.505Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T11:26:43.517Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T11:26:43.543Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-04T11:28:39.883Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T11_28_39_856Z-debug.log
+        
+
+[ERROR] [2018-01-04T11:28:39.910Z] Could not get latest version of ionic.
+[DEBUG] [2018-01-04T13:00:23.253Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T13:00:23.263Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T13:00:23.291Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-04T13:01:36.596Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T13_01_36_538Z-debug.log
+        
+
+[ERROR] [2018-01-04T13:01:36.617Z] Could not get latest version of ionic.
+[DEBUG] [2018-01-04T13:17:01.691Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T13:17:01.717Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T13:17:01.740Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T13:17:34.156Z] Writing 312 to daemon pid file (.\daemon.pid).
+[2018-01-04T13:17:34.166Z] Spinning up communication server on port 53818.
+[2018-01-04T13:17:40.866Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T13:17:59.518Z] Writing daemon file.
+[DEBUG] [2018-01-04T13:26:40.142Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-04T13:26:40.145Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-04T13:29:47.873Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-04T13:29:47.882Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-04T13:29:47.940Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-04T13:33:22.203Z] Writing 7112 to daemon pid file (.\daemon.pid).
+[2018-01-04T13:33:22.213Z] Spinning up communication server on port 53818.
+[2018-01-04T13:33:22.448Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-04T13:33:44.196Z] Writing daemon file.
+[ERROR] [2018-01-04T13:50:32.526Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T13_50_32_465Z-debug.log
+        
+
+[ERROR] [2018-01-04T13:50:32.559Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T13_50_32_459Z-debug.log
+        
+
+[ERROR] [2018-01-04T13:50:32.586Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        npm ERR! code ENOTFOUND
+        npm ERR! errno ENOTFOUND
+        npm ERR! syscall getaddrinfo
+        npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ENOTFOUND",
+             "summary": "getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-04T13_50_32_494Z-debug.log
+        
+
+[2018-01-04T13:50:32.612Z] Writing daemon file.
+[2018-01-04T14:05:34.933Z] Writing daemon file.
+[2018-01-04T14:19:51.821Z] Writing daemon file.
+[2018-01-04T14:33:51.253Z] Writing daemon file.
+[2018-01-04T14:49:08.723Z] Writing daemon file.
+[2018-01-04T15:04:23.026Z] Writing daemon file.
+[DEBUG] [2018-01-05T04:52:09.600Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-05T04:52:09.620Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-05T04:52:09.646Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-05T04:52:19.272Z] Daemon pid file found: .\daemon.pid
+[2018-01-05T04:52:19.273Z] Process 7112 not found, deleting pid file.
+[2018-01-05T04:52:19.274Z] Writing 4228 to daemon pid file (.\daemon.pid).
+[2018-01-05T04:52:19.285Z] Spinning up communication server on port 53818.
+[2018-01-05T04:52:22.890Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-05T04:52:36.117Z] Writing daemon file.
+{ Error
+    at new Exception (C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm\node_modules\ionic\node_modules\@ionic\cli-utils\lib\errors.js:8:23)
+    at new ShellException (C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm\node_modules\ionic\node_modules\@ionic\cli-utils\lib\errors.js:26:9)
+    at ChildProcess.p.on.code (C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm\node_modules\ionic\node_modules\@ionic\cli-utils\lib\utils\shell.js:68:28)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at ChildProcess.cp.emit (C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm\node_modules\ionic\node_modules\cross-spawn\lib\enoent.js:40:29)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) name: 'Exception', exitCode: 3221225786 }
+[DEBUG] [2018-01-05T05:08:02.857Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-01-05T05:08:02.862Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-05T05:22:24.724Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-05T05:22:24.735Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-05T05:22:24.763Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-01-05T05:22:31.390Z] Writing 492 to daemon pid file (.\daemon.pid).
+[2018-01-05T05:22:31.401Z] Spinning up communication server on port 53818.
+[2018-01-05T05:22:31.637Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-01-05T05:22:47.741Z] Writing daemon file.
+[ERROR] [2018-01-05T05:39:00.960Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T05_39_00_896Z-debug.log
+        
+
+[ERROR] [2018-01-05T05:39:01.076Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T05_39_01_051Z-debug.log
+        
+
+[ERROR] [2018-01-05T05:39:01.518Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T05_39_01_494Z-debug.log
+        
+
+[2018-01-05T05:39:01.521Z] Writing daemon file.
+[ERROR] [2018-01-05T05:54:00.613Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T05_54_00_554Z-debug.log
+        
+
+[ERROR] [2018-01-05T05:54:00.762Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T05_54_00_735Z-debug.log
+        
+
+[ERROR] [2018-01-05T05:54:01.020Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T05_54_00_961Z-debug.log
+        
+
+[2018-01-05T05:54:01.040Z] Writing daemon file.
+[ERROR] [2018-01-05T06:09:00.598Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_09_00_564Z-debug.log
+        
+
+[ERROR] [2018-01-05T06:09:00.720Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_09_00_700Z-debug.log
+        
+
+[ERROR] [2018-01-05T06:09:01.381Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_09_01_359Z-debug.log
+        
+
+[2018-01-05T06:09:01.383Z] Writing daemon file.
+[2018-01-05T06:22:58.162Z] Writing daemon file.
+[ERROR] [2018-01-05T06:40:05.909Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_40_05_739Z-debug.log
+        
+
+[ERROR] [2018-01-05T06:40:05.916Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_40_05_541Z-debug.log
+        
+
+[ERROR] [2018-01-05T06:40:06.600Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_40_05_539Z-debug.log
+        
+
+[2018-01-05T06:40:06.607Z] Writing daemon file.
+[ERROR] [2018-01-05T06:54:03.131Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_54_03_078Z-debug.log
+        
+
+[ERROR] [2018-01-05T06:54:03.430Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_54_03_390Z-debug.log
+        
+
+[ERROR] [2018-01-05T06:54:03.653Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T06_54_03_631Z-debug.log
+        
+
+[2018-01-05T06:54:03.655Z] Writing daemon file.
+[ERROR] [2018-01-05T07:09:01.811Z] An error occurred while running npm view @ionic/cli-utils dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T07_09_01_715Z-debug.log
+        
+
+[ERROR] [2018-01-05T07:09:01.877Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T07_09_01_665Z-debug.log
+        
+
+[ERROR] [2018-01-05T07:09:01.897Z] An error occurred while running npm view @ionic/cli-plugin-proxy dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T07_09_01_761Z-debug.log
+        
+
+[2018-01-05T07:09:01.996Z] Writing daemon file.
+[DEBUG] [2018-01-05T07:18:29.744Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-01-05T07:18:29.749Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-01-05T07:18:46.791Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-05T07:18:46.805Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-05T07:18:46.864Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-05T07:20:01.769Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T07_20_01_725Z-debug.log
+        
+
+[ERROR] [2018-01-05T07:20:01.790Z] Could not get latest version of ionic.
+[DEBUG] [2018-01-05T07:32:27.780Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-05T07:32:27.790Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-05T07:32:27.911Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-05T07:33:42.316Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        npm ERR! code ENOENT
+        npm ERR! errno ENOENT
+        npm ERR! syscall getaddrinfo
+        npm ERR! enoent getaddrinfo ENOENT registry.npmjs.org:443
+        npm ERR! enoent This is related to npm not being able to find a file.
+        npm ERR! enoent 
+        {
+           "error": {
+             "code": "ENOENT",
+             "summary": "getaddrinfo ENOENT registry.npmjs.org:443",
+             "detail": "This is related to npm not being able to find a file.\n"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T07_33_42_289Z-debug.log
+        
+
+[ERROR] [2018-01-05T07:33:42.337Z] Could not get latest version of ionic.
+[DEBUG] [2018-01-05T07:35:32.530Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-01-05T07:35:32.542Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-01-05T07:35:32.598Z] { cwd: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\.ionic', local: false, binPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\ANSAH GYEKYE ABRAHAM\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[ERROR] [2018-01-05T07:37:53.708Z] An error occurred while running npm view ionic dist-tags.latest --json (exit code 1):
+
+        
+        
+        ┌───────────────────────────────────────────────────────────────────────────┐
+        │                          npm update check failed                          │
+        │                    Try running with sudo or get access                    │
+        │                   to the local update config store via                    │
+        │ sudo chown -R $USER:$(id -gn $USER) C:\Users\ANSAH GYEKYE ABRAHAM\.config │
+        └───────────────────────────────────────────────────────────────────────────┘
+        npm ERR! code ETIMEDOUT
+        npm ERR! errno ETIMEDOUT
+        npm ERR! syscall connect
+        npm ERR! network connect ETIMEDOUT 151.101.60.162:443
+        npm ERR! network This is a problem related to network connectivity.
+        npm ERR! network In most cases you are behind a proxy or have bad network settings.
+        npm ERR! network 
+        npm ERR! network If you are behind a proxy, please make sure that the
+        npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+        {
+           "error": {
+             "code": "ETIMEDOUT",
+             "summary": "connect ETIMEDOUT 151.101.60.162:443",
+             "detail": "This is a problem related to network connectivity.\nIn most cases you are behind a proxy or have bad network settings.\n\nIf you are behind a proxy, please make sure that the\n'proxy' config is set properly.  See: 'npm help config'"
+           }
+        }
+        
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     C:\Users\ANSAH GYEKYE ABRAHAM\AppData\Roaming\npm-cache\_logs\2018-01-05T07_37_53_683Z-debug.log
+        
+
+[ERROR] [2018-01-05T07:37:53.740Z] Could not get latest version of ionic.
