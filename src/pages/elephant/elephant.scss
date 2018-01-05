@@ -1,3 +1,16 @@
 page-elephant {
-
+  .styling {
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-self: auto;
+    float: right;
+  }
+  .bdy {
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+    flood-opacity: inherit;
+    float: initial
+  }
 }
